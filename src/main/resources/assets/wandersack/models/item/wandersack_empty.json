@@ -1,0 +1,6 @@
+{
+  "parent": "wandersack:item/wandersack",
+  "textures": {
+    "layer0": "wandersack:item/wandersack_empty"
+  }
+}

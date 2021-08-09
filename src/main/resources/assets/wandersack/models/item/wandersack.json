@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "wandersack:item/wandersack"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "wandersack:torn": 1
+      },
+      "model": "wandersack:item/wandersack_torn"
+    },
+    {
+      "predicate": {
+        "wandersack:empty": 1
+      },
+      "model": "wandersack:item/wandersack_empty"
+    },
+    {
+      "predicate": {
+        "wandersack:torn": 1,
+        "wandersack:empty": 1
+      },
+      "model": "wandersack:item/wandersack_emptied"
+    }
+  ]
+}
